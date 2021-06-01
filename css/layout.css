@@ -33,7 +33,7 @@
     height: 2rem;
 }
 .content-sidebar .mobile-menu-icon svg {
-    fill: var(--col-accent-400);
+    fill: var(--col-primary-300);
 }
 
 .content-sidebar .nav-links {
