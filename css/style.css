@@ -19,6 +19,7 @@
 
 .site-nav ol li {
     display: block;
+    border-bottom: 4px solid var(--col-primary-300);
 }
 
 .site-nav a {
