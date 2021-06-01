@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Glegoo&family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <div class="fullheight">
@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="content-sidebar">
                     <div class="nav-logo">
-                        <img src="img/smile.png" alt="Sketch of smiling face">
+                        <img src="/static/img/smile.png" alt="Sketch of smiling face">
                         <span>pge</span>
                     </div>
 
@@ -31,11 +31,9 @@
 
                     <div class="nav-links">
                         <ol>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Work</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Impressum</a></li>
-                            <li><a href="#">Impressum</a></li>
+                            <li><a href="/" data-link>Home</a></li>
+                            <li><a href="/projects" data-link>Projects</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ol>
                     </div>
                 </div>
@@ -43,12 +41,7 @@
         </nav>
         <section class="site-main text-center">
             <div class="container container--narrow">
-                <div>
-                    <h1>Hello, I'm Paul. Stuff about me. Funny joke! Haha.</h1>
-                </div>
-                <div>
-                    <p>Take a look at my non-existant socials! Here are some none links, wow.</p>
-                </div>
+                <div id="app"></div>
             </div>
         </section>
         <footer class="site-footer text-center">
@@ -57,5 +50,6 @@
             </div>
         </footer>
     </div>
+    <script type="module" src="/static/js/index.js"></script>
 </body>
 </html>
