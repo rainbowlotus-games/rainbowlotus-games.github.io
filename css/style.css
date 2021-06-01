@@ -1,0 +1,38 @@
+.sticky-top {
+    position: sticky;
+    top: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.site-nav {
+    font-family: var(--ff-accent-alt);
+    padding: 1em 0 1em 0;
+}
+
+.site-nav ol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav ol li {
+    display: block;
+}
+
+.site-nav a {
+    color: var(--col-accent-300);
+    text-decoration: none;
+}
+
+.site-footer {
+    font-size: 1rem;
+}
+
+/* Add complexity */
+@media (min-width: 45em) {
+    .site-nav ol li {
+        display: inline-block;
+    }
+}
