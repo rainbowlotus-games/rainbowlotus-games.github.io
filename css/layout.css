@@ -34,6 +34,8 @@
 }
 .content-sidebar .mobile-menu-icon svg {
     fill: var(--col-primary-300);
+    display: inline-block;
+    height: 100%;
 }
 
 .content-sidebar .nav-links {
