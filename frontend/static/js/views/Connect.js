@@ -4,13 +4,13 @@ export default class extends AbstractView {
     constructor(params) {
         super(params);
         this.projectId = params.id;
-        this.setTitle("Viewing Project " + this.projectId);
+        this.setTitle("Connect with me");
     }
 
     async getHtml() {
         return /*html*/ `
-            <h1>Project</h1>
-            <p>You are viewing project #${this.projectId}.</p>
+            <h1>Connect</h1>
+            <p>Message me on any of these things!</p>
         `;
     }
 }

@@ -7,12 +7,14 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
-        return `
+        return /*html*/ `
         <div>
-            <h1>Hello, I'm Paul. Stuff about me. Funny joke! Haha.</h1>
-        </div>
-        <div>
-            <p>Take a look at my non-existant socials! Here are some none links, wow.</p>
+            <div>
+                <h1>Hello, I'm Paul. Stuff about me. Funny joke! Haha.</h1>
+            </div>
+            <div>
+                <p>Take a look at my non-existant socials! Here are some none links, wow.</p>
+            </div>
         </div>
         `;
     }
